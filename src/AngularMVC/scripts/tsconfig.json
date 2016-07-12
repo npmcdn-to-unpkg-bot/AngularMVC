@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+
+
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+
+    "outDir": "../wwwroot/appScripts/",
+
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es6",
+
+    "moduleResolution": "node"
+
+  },
+  "exclude": [
+    "node_modules",
+    "typings/index",
+    "typings/index.d.ts"
+  ]
+}
